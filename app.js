@@ -19,4 +19,4 @@ const errorHandler = (err, req, res, next) => {
 
 app.use(errorHandler)
 
-app.listen(config.swaggerServerPort, () => console.log(`OpenAPI example server running on ${config.swaggerServerPort}...`));
+app.listen(config.swaggerServerPort, () => console.log(`OpenAPI example server running on port ${config.swaggerServerPort}...`));
